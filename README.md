@@ -5,6 +5,8 @@ Description
 -----------
 eXist-db REST API wrapper
 
+[http://exist-db.org/devguide_rest.html](http://exist-db.org/devguide_rest.html)
+
 Simple usage
 ------------
 **XQuery**
@@ -50,7 +52,8 @@ Simple usage
     require('exist').json2xml(obj)
 
 This will return:
-<event foo="bar"><bonjour><en>hello</en><ko>annyung</ko></bonjour><love>hate</love></event>
+
+    '<event foo="bar"><bonjour><en>hello</en><ko>annyung</ko></bonjour><love>hate</love></event>'
 
 
 Installation
