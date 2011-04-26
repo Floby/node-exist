@@ -1,0 +1,17 @@
+{
+    "name": "exist",
+    "description": "REST wrapper to reach eXist-db",
+    "version": "0.0.1",
+    "homepage": "http://github.com/blandinw/node-exist",
+    "author": "Willy Blandin <wblandin@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/blandinw/node-exist"
+    },
+    "engines": {
+        "node": ">=0.4.0"
+    },
+    "licenses": [{ "type": "BSD" }],
+    "main": "./lib/exist"
+}
+
