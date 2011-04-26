@@ -7,7 +7,8 @@ eXist-db REST API wrapper
 
 Simple usage
 ------------
-*XQuery*
+**XQuery**
+
     var exist = require('exist');
 
     var q = '
@@ -33,7 +34,8 @@ Simple usage
         console.log(e);
     });
 
-*JSON to XML*
+**JSON to XML**
+
     var obj = {
         event: {
             '@': {foo: 'bar'},
@@ -45,7 +47,10 @@ Simple usage
         }
     };
 
-    require('exist').json2xml(obj) //<event foo="bar"><bonjour><en>hello</en><ko>annyung</ko></bonjour><love>hate</love></event>
+    require('exist').json2xml(obj)
+
+This will return:
+<event foo="bar"><bonjour><en>hello</en><ko>annyung</ko></bonjour><love>hate</love></event>
 
 
 Installation
