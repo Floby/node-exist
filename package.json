@@ -6,10 +6,10 @@
     "author": "Willy Blandin <wblandin@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "http://github.com/blandinw/node-exist"
+        "url": "https://github.com/blandinw/node-exist.git"
     },
     "engines": {
-        "node": ">=0.4.0"
+        "node": "0.4"
     },
     "licenses": [{ "type": "BSD" }],
     "main": "./lib/exist"
